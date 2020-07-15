@@ -28,7 +28,7 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ talha.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ shivering-mailbox.surge.sh --token ${{secrets.SURGE_TOKEN}}
        
     
   
